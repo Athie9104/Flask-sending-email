@@ -35,7 +35,7 @@ def send_email():
         server = smtplib.SMTP('smtp.gmail.com', 587)
         sender_email = email
         receiver_email = 'athenkosigongotha7@gmail.com'
-        password = "***************"
+        password = "910479212"
 
         server.starttls()
         server.login(sender_email, password)
